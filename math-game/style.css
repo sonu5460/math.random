@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+    
+} 
+
+#in{
+    cursor: pointer;
+    height:30px;
+    font-size: medium;
+    border: none;
+    border-radius: 0.5rem;
+
+}
+
+#main{
+    cursor: pointer;
+    height:400px ;
+    width: 300px;
+    background-color:#FF9D09;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+    
+}
+button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 0.5rem;
+  background-color: cornflowerblue;
+  margin-top: 10px;
+}
