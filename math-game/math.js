@@ -30,7 +30,7 @@ input.value='';
 
 let output=document.querySelector(".output")
 
-
+let next=document.querySelector(".next")
 
 return { number, number2, op2, result };
 
@@ -44,6 +44,7 @@ document.querySelector("#button").addEventListener("click",()=>
     let input=document.querySelector("#in");
 
 let output=document.querySelector(".output")
+let next=document.querySelector(".next");
 
     const useranswer=parseFloat(input.value)
     if(!isNaN(useranswer))
@@ -67,6 +68,9 @@ let output=document.querySelector(".output")
     
 
     const useranswer=parseFloat(input.value)
+
+   
+   
     if(!isNaN(useranswer))
     {
    if(useranswer===result)
@@ -92,6 +96,7 @@ main();
 // buttonn to gate new or another game value
  document.querySelector("#new").addEventListener("click",()=>{
     main();
+    
  })
 
 
